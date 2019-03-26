@@ -1,0 +1,48 @@
+nav {
+  font-family: "Didact Gothic", sans-serif;
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  font-size: 20px;
+  z-index: 1000;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  ul {
+    margin-top: 5px;
+    display: flex;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    &:hover {
+      color: brown;
+    }
+  }
+  button {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  nav {
+    button {
+      background-color: white;
+      font-size: 20px;
+      position: absolute;
+      left: 10px;
+      border: none;
+      cursor: pointer;
+      margin-top: 3px;
+      display: flex;
+    }
+  }
+  .show {
+    transform: translate(0, 0);
+  }
+
+  .hide {
+    transform: translate(0, -400px);
+  }
+}

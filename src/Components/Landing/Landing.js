@@ -12,20 +12,16 @@ class Landing extends Component {
             alt="logo"
           />
         </span>
-        <button
+        {/* <button
           className="down-landing"
           onClick={() => window.scrollTo({ top: 700, behavior: "smooth" })}
         >
           <i class="fas fa-chevron-down" />
-        </button>
+        </button> */}
 
         <div className="slide1" />
         <div className="slide2" />
         <div className="slide3" />
-
-        <section>
-          <NavBar />
-        </section>
       </div>
     );
   }
