@@ -25,7 +25,7 @@ class NavBar extends Component {
             <div className="links">
               <Link to="/">home</Link>
               <Link to="/about">about</Link>
-              <Link to="/breads">breads</Link>
+              <Link to="/breads">doughs</Link>
               <Link to="/locations">locations</Link>
               <Link to="/workshops">workshops</Link>
               <Link to="/blog">blog</Link>
@@ -45,7 +45,7 @@ class NavBar extends Component {
 
             <div className="links">
               <Link to="/about">about</Link>
-              <Link to="/breads">breads</Link>
+              <Link to="/breads">doughs</Link>
               <Link to="/locations">locations</Link>
               <Link to="/workshops">workshops</Link>
               <Link to="/blog">blog</Link>

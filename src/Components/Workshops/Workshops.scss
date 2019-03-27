@@ -1,0 +1,75 @@
+.workshop-container {
+  font-family: "Didact Gothic", sans-serif;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  line-height: 1.5em;
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 20px;
+    width: 800px;
+    padding: 20px;
+  }
+}
+.order-container {
+  line-height: 1.2em;
+  font-size: 20px;
+  width: 800px;
+  p {
+    color: brown;
+    font-weight: bold;
+    padding: 0;
+    ul {
+      width: 600px;
+      text-align: start;
+    }
+  }
+}
+
+.workshops-list {
+  font-family: "Didact Gothic", sans-serif;
+  div {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    //  align-items: center;
+    span {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h6 {
+        font-size: 30px;
+      }
+      p {
+        text-align: start;
+        font-size: 20px;
+        width: 600px;
+      }
+      button {
+      }
+    }
+    img {
+      width: 380px;
+      height: 380px;
+      object-fit: cover;
+      animation: appear 1.5s;
+      animation-fill-mode: forwards;
+    }
+    @keyframes appear {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  }
+}
