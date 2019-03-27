@@ -16,20 +16,41 @@ class NavBar extends Component {
     });
   };
   render() {
+    const { toggle } = this.state;
     return (
       <nav>
-        <div>
-          <button onClick={this.toggle}>☰</button>
-        </div>
-        <ul className={this.state.toggle ? "show" : "hide"}>
-          <Link to="/">home</Link>
-          <Link to="/about">about</Link>
-          <Link to="/about">breads</Link>
-          <Link to="/about">locations</Link>
-          <Link to="/about">workshops</Link>
-          <Link to="/blog">blog</Link>
-          <Link to="/contact">contact</Link>
-        </ul>
+        {toggle ? (
+          <div className="drawerOpen">
+            <button onClick={this.toggle}>&times;</button>
+            <div className="links">
+              <Link to="/">home</Link>
+              <Link to="/about">about</Link>
+              <Link to="/about">breads</Link>
+              <Link to="/about">locations</Link>
+              <Link to="/about">workshops</Link>
+              <Link to="/blog">blog</Link>
+              <Link to="/contact">contact</Link>
+            </div>
+          </div>
+        ) : (
+          <div className="drawerHidden">
+            <img
+              width="180"
+              src="http://www.sourflour.org/wp-content/uploads/2013/08/web-sourflour-logosmall.png"
+              alt="logo"
+            />
+            <button onClick={this.toggle}>&#9776;</button>
+            <div className="links">
+              <Link to="/">home</Link>
+              <Link to="/about">about</Link>
+              <Link to="/about">breads</Link>
+              <Link to="/about">locations</Link>
+              <Link to="/about">workshops</Link>
+              <Link to="/blog">blog</Link>
+              <Link to="/contact">contact</Link>
+            </div>
+          </div>
+        )}
       </nav>
     );
   }
