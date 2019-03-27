@@ -41,11 +41,13 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  width: 95%;
   h5 {
     font-size: 20px;
     color: brown;
     font-weight: bold;
     padding-bottom: 10px;
+    text-align: center;
   }
 
   div {
@@ -53,6 +55,20 @@
     img {
       width: 150px;
       height: 150px;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .location-container {
+    p {
+      width: 95%;
+    }
+  }
+  .locations-list {
+    div {
+      padding: 15px;
+      width: 95%;
     }
   }
 }

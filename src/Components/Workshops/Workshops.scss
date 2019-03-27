@@ -117,8 +117,16 @@
   .order-container {
     width: 90%;
     font-size: 18px;
+    line-height: 1.2em;
     ul {
-      width: 80%;
+      margin-left: 25px;
+      padding-bottom: 10px;
+      li {
+        width: 85%;
+      }
+    }
+    p {
+      margin: 0 auto;
     }
   }
 

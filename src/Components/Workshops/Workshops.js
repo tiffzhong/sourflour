@@ -68,13 +68,12 @@ class Workshops extends Component {
                   well as the knowledge and confidence to use it to bake your
                   own sourdough bread at home.
                 </p>
-                <button>Book Now</button>
               </span>
             </div>
 
             <div className="workshop-2">
               <span>
-                <h6>Advanced Bread Workshop, aka Bread 2</h6>
+                <h6>Advanced Bread Workshop</h6>
                 <p>
                   This is the second in our bread series, after the Starter
                   Workshop. Once you learn everything about taking care of your

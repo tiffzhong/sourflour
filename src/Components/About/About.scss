@@ -69,3 +69,14 @@
     }
   }
 }
+
+@media (max-width: 375px) {
+  .about-container {
+    .video {
+      iframe {
+        width: 375px;
+        height: 190px;
+      }
+    }
+  }
+}

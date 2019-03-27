@@ -213,12 +213,15 @@
   background-color: brown;
   height: 30px;
   bottom: 0;
-  position: fixed;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   div {
-    padding-top: 5px;
+    // padding-top: 5px;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    // align-items: center;
     width: 90%;
   }
   span a {
