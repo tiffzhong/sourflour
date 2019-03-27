@@ -6,16 +6,13 @@ nav {
   position: fixed;
   font-size: 20px;
   z-index: 1000;
-  height: 170px;
+  height: 165px;
   display: flex;
   justify-content: center;
   .drawerHidden {
     display: flex;
     align-items: center;
     flex-direction: column;
-    img {
-      padding-bottom: 5px;
-    }
   }
   button {
     display: none;
@@ -24,7 +21,7 @@ nav {
     margin-top: 5px;
   }
   a {
-    margin: 10px;
+    margin: 0 10px;
     color: black;
     text-decoration: none;
 
@@ -60,6 +57,7 @@ nav {
     transform: translate(100px);
     padding-left: 20px;
     margin: 0 auto;
+
     button {
       top: 0px;
       left: 180px;
@@ -70,8 +68,12 @@ nav {
       transition: 0.3s;
       width: 200px;
       padding-top: 40px;
+
       display: flex;
       flex-direction: column;
+      a {
+        padding: 10px;
+      }
     }
   }
   .drawerHidden {

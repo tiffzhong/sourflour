@@ -1,0 +1,13 @@
+.main-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  padding: 20px 0 15px 0;
+  border-bottom: 2px solid brown;
+  margin: 0 auto;
+  img {
+    margin: 0 auto;
+    width: 180px;
+  }
+}

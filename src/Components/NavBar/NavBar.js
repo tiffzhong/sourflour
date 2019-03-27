@@ -25,27 +25,29 @@ class NavBar extends Component {
             <div className="links">
               <Link to="/">home</Link>
               <Link to="/about">about</Link>
-              <Link to="/about">breads</Link>
-              <Link to="/about">locations</Link>
-              <Link to="/about">workshops</Link>
+              <Link to="/breads">breads</Link>
+              <Link to="/locations">locations</Link>
+              <Link to="/workshops">workshops</Link>
               <Link to="/blog">blog</Link>
               <Link to="/contact">contact</Link>
             </div>
           </div>
         ) : (
           <div className="drawerHidden">
-            <img
-              width="180"
-              src="http://www.sourflour.org/wp-content/uploads/2013/08/web-sourflour-logosmall.png"
-              alt="logo"
-            />
             <button onClick={this.toggle}>&#9776;</button>
+            <Link to="/">
+              <img
+                width="180"
+                src="http://www.sourflour.org/wp-content/uploads/2013/08/web-sourflour-logosmall.png"
+                alt="logo"
+              />
+            </Link>
+
             <div className="links">
-              <Link to="/">home</Link>
               <Link to="/about">about</Link>
-              <Link to="/about">breads</Link>
-              <Link to="/about">locations</Link>
-              <Link to="/about">workshops</Link>
+              <Link to="/breads">breads</Link>
+              <Link to="/locations">locations</Link>
+              <Link to="/workshops">workshops</Link>
               <Link to="/blog">blog</Link>
               <Link to="/contact">contact</Link>
             </div>

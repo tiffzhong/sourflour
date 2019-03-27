@@ -19,16 +19,16 @@ class Landing extends Component {
     const { toggle } = this.state;
     return (
       <div className="landing">
-        <nav>
+        <div className="navbar-landing">
           {toggle ? (
             <div className="drawerOpen">
               <button onClick={this.toggle}>&times;</button>
               <div className="links">
                 <Link to="/">home</Link>
                 <Link to="/about">about</Link>
-                <Link to="/about">breads</Link>
-                <Link to="/about">locations</Link>
-                <Link to="/about">workshops</Link>
+                <Link to="/breads">breads</Link>
+                <Link to="/locations">locations</Link>
+                <Link to="/workshops">workshops</Link>
                 <Link to="/blog">blog</Link>
                 <Link to="/contact">contact</Link>
               </div>
@@ -39,15 +39,16 @@ class Landing extends Component {
               <div className="links">
                 <Link to="/">home</Link>
                 <Link to="/about">about</Link>
-                <Link to="/about">breads</Link>
-                <Link to="/about">locations</Link>
-                <Link to="/about">workshops</Link>
+                <Link to="/breads">breads</Link>
+                <Link to="/locations">locations</Link>
+                <Link to="/workshops">workshops</Link>
                 <Link to="/blog">blog</Link>
                 <Link to="/contact">contact</Link>
               </div>
             </div>
           )}
-        </nav>
+        </div>
+
         <div className="slide1" />
         <div className="slide2" />
         <div className="slide3" />

@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import "./About.scss";
 import NavBar from "../NavBar/NavBar";
+import MainImage from "../MainImage/MainImage";
 class About extends Component {
   render() {
     return (
-      <>
+      <div id="about">
         <NavBar />
+        <MainImage />
         <div className="about-container">
           <h1>About Us</h1>
           <div className="history-container">
@@ -59,16 +61,8 @@ class About extends Component {
             mozallowfullscreen
             allowfullscreen
           />
-          <p>
-            <a href="https://vimeo.com/56030891">
-              Sour Flour: The Story of Proud Bread Makers
-            </a>{" "}
-            from{" "}
-            <a href="https://vimeo.com/alejandrabayardo">Alejandra Bayardo</a>{" "}
-            on <a href="https://vimeo.com">Vimeo</a>.
-          </p>
         </div>
-      </>
+      </div>
     );
   }
 }

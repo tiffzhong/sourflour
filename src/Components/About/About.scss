@@ -1,6 +1,6 @@
 .about-container {
   font-family: "Didact Gothic", sans-serif;
-  padding-top: 185px;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,20 +11,14 @@
   }
   h2 {
     font-size: 30px;
-    width: 60%;
+    width: 900px;
     background-color: brown;
     color: white;
   }
   p {
-    width: 85%;
+    width: 800px;
   }
   div {
     padding: 20px;
   }
 }
-
-// @media (max-width: 800px) {
-//   .about-container {
-//     padding-top: 10px;
-//   }
-// }
