@@ -21,7 +21,7 @@
 .order-container {
   line-height: 1.2em;
   font-size: 20px;
-  width: 800px;
+  width: 850px;
   p {
     color: brown;
     font-weight: bold;
@@ -32,28 +32,33 @@
     }
   }
 }
-
+.line {
+  width: 1100px;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+}
 .workshops-list {
   font-family: "Didact Gothic", sans-serif;
   div {
-    padding: 10px;
+    padding: 20px 0 30px 0;
     display: flex;
     justify-content: center;
-    //  align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid brown;
     span {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       h6 {
+        font-weight: bold;
+        color: brown;
         font-size: 30px;
       }
       p {
         text-align: start;
         font-size: 20px;
-        width: 600px;
-      }
-      button {
+        width: 700px;
       }
     }
     img {
@@ -69,6 +74,74 @@
       }
       100% {
         opacity: 1;
+      }
+    }
+  }
+}
+
+@media (max-width: 1150px) {
+  .line {
+    margin-bottom: 0px;
+    width: 95%;
+  }
+  .workshops-list {
+    width: 95%;
+    div {
+      width: 95%;
+      display: flex;
+      align-items: center;
+      padding: 15px 0 25px 0;
+      margin: 0px;
+      border-bottom: 1px solid brown;
+      img {
+        width: 350px;
+        height: 350px;
+      }
+      span {
+        p {
+          font-size: 19px;
+          width: 90%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .workshop-container {
+    p {
+      font-size: 18px;
+      width: 90%;
+    }
+  }
+  .order-container {
+    width: 90%;
+    font-size: 18px;
+    ul {
+      width: 80%;
+    }
+  }
+
+  .workshops-list {
+    div {
+      flex-direction: column;
+      padding: 10px;
+      margin-bottom: 5px;
+      img {
+        order: 1;
+        width: 350px;
+        height: 350px;
+      }
+      span {
+        order: 2;
+        h6 {
+          font-size: 28px;
+          padding-top: 10px;
+        }
+        p {
+          font-size: 18px;
+          width: 90%;
+        }
       }
     }
   }

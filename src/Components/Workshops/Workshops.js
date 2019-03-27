@@ -47,6 +47,7 @@ class Workshops extends Component {
             requests. We appreciate your support and look forward to meeting you
             soon!
           </p>
+          <div className="line" />
 
           <div className="workshops-list">
             <div className="workshop-1">
@@ -73,7 +74,7 @@ class Workshops extends Component {
 
             <div className="workshop-2">
               <span>
-                <h6>Advanced Bread, aka Bread 2</h6>
+                <h6>Advanced Bread Workshop, aka Bread 2</h6>
                 <p>
                   This is the second in our bread series, after the Starter
                   Workshop. Once you learn everything about taking care of your
@@ -91,43 +92,49 @@ class Workshops extends Component {
                   oven, this class is for you! This is a small class with
                   limited enrollment, so sign up early!
                 </p>
-                <img src={advance} alt="advance" />
               </span>
+              <img src={advance} alt="advance" />
             </div>
             <div className="workshop-3">
               <img src={bagel} alt="bagel" />
-              <h6>Bagel</h6>
-              <p>
-                The best bagels ever! Why? Because you make them yourself and
-                nothing beats the flavor and aroma of hot-from-the-oven bagels,
-                made with a fermented, wild yeast starter. Everyone will go home
-                with rising bagels they’ve made in class, ready to finish
-                boiling and baking the next day. We’ll also boil and bake bagels
-                in class – plain, sesame, poppy seed, or everything– to enjoy
-                with cream cheese and jam. Yum! Bring a baking sheet or covered
-                container to transport your bagels home.
-              </p>
+              <span>
+                <h6>Bagel Workshop</h6>
+                <p>
+                  The best bagels ever! Why? Because you make them yourself and
+                  nothing beats the flavor and aroma of hot-from-the-oven
+                  bagels, made with a fermented, wild yeast starter. Everyone
+                  will go home with rising bagels they’ve made in class, ready
+                  to finish boiling and baking the next day. We’ll also boil and
+                  bake bagels in class – plain, sesame, poppy seed, or
+                  everything– to enjoy with cream cheese and jam. Yum! Bring a
+                  baking sheet or covered container to transport your bagels
+                  home.
+                </p>
+              </span>
             </div>
             <div className="workshop-4">
+              <span>
+                <h6>Pizza Workshop</h6>
+                <p>
+                  We expand our dough skills in this workshop by working on one
+                  of our favorite foods: pizza. Whether thick crust or thin,
+                  vegetarian or meat, oven baked or wood-fired, eating the
+                  perfect pie can be … life changing! And re-creating your
+                  favorite restaurant pie at home has eluded many of the best
+                  home chefs -until now. We will take you on a step-by-step
+                  journey to demystify the art of making the perfect dough with
+                  that little extra bit of flavor, using a naturally fermented,
+                  wild-yeast sourdough starter. You’ll learn every step of the
+                  process, from mixing, balling, stretching, shaping, to baking
+                  the final product: a deliciously light, crisp bite with
+                  serious flavor and chew: the real pizzaiolo deal. This is the
+                  perfect date-night, friends-night, fun-night out… we start
+                  with a light selection of appetizers, work the dough, and
+                  finish with handcrafted individual pizza and seasonal salad.
+                  BYOB! Join us!!
+                </p>
+              </span>
               <img src={pizza} alt="pizza" />
-              <h6>Pizza</h6>
-              <p>
-                We expand our dough skills in this workshop by working on one of
-                our favorite foods: pizza. Whether thick crust or thin,
-                vegetarian or meat, oven baked or wood-fired, eating the perfect
-                pie can be … life changing! And re-creating your favorite
-                restaurant pie at home has eluded many of the best home chefs
-                -until now. We will take you on a step-by-step journey to
-                demystify the art of making the perfect dough with that little
-                extra bit of flavor, using a naturally fermented, wild-yeast
-                sourdough starter. You’ll learn every step of the process, from
-                mixing, balling, stretching, shaping, to baking the final
-                product: a deliciously light, crisp bite with serious flavor and
-                chew: the real pizzaiolo deal. This is the perfect date-night,
-                friends-night, fun-night out… we start with a light selection of
-                appetizers, work the dough, and finish with handcrafted
-                individual pizza and seasonal salad. BYOB! Join us!!
-              </p>
             </div>
           </div>
         </div>
