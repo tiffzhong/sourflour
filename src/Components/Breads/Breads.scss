@@ -10,6 +10,7 @@
     font-size: 40px;
   }
   p {
+    text-align: center;
     font-size: 20px;
     width: 800px;
     padding: 20px;
@@ -57,6 +58,12 @@
   .bread-header {
     p {
       width: 95%;
+    }
+  }
+  .bread-container {
+    img {
+      width: 360px;
+      height: 360px;
     }
   }
 }
