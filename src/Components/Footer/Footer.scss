@@ -2,9 +2,20 @@ footer {
   font-family: "Didact Gothic", sans-serif;
   width: 100%;
   background-color: brown;
-  opacity: 0.85;
   height: 30px;
-  bottom: 0;
-  position: relative;
-  text-align: center;
+  color: white;
+  div {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+  }
+  span a {
+    text-decoration: none;
+    color: white;
+    &:hover {
+      color: black;
+    }
+  }
 }

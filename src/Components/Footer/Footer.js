@@ -4,14 +4,25 @@ class Footer extends Component {
   render() {
     return (
       <footer>
-        Copyright ©2019 built by
-        <a
-          href="https://www.github.com/tiffzhong"
-          target="_blank"
-          alt="github.com/tiffzhong"
-        >
-          tiffz
-        </a>
+        <div>
+          <span>
+            follow us on{" "}
+            <a href="https://www.instagram.com/sourflourbread/" alt="ig">
+              <i class="fab fa-instagram" />
+            </a>
+          </span>
+          <span>copyright ©2019 </span>
+          <span>
+            site built by{" "}
+            <a
+              href="https://tiffzhong.github.io"
+              target="_blank"
+              alt="github.com/tiffzhong"
+            >
+              tiffz
+            </a>
+          </span>
+        </div>
       </footer>
     );
   }

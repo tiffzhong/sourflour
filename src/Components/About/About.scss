@@ -21,4 +21,50 @@
   div {
     padding: 20px;
   }
+  .video {
+    margin-bottom: 20px;
+    iframe {
+      width: 854px;
+      height: 480px;
+    }
+  }
+}
+
+@media (max-width: 930px) {
+  .about-container {
+    h2 {
+      width: 95%;
+    }
+    p {
+      width: 95%;
+    }
+    .video {
+      iframe {
+        width: 640px;
+        height: 360px;
+      }
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .about-container {
+    .video {
+      iframe {
+        width: 500px;
+        height: 270px;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .about-container {
+    .video {
+      iframe {
+        width: 426px;
+        height: 240px;
+      }
+    }
+  }
 }

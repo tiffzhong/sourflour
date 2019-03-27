@@ -35,9 +35,6 @@
     button {
       display: none;
     }
-    // div {
-    //   margin-top: 5px;
-    // }
     .links {
       margin-top: 5px;
     }
@@ -217,7 +214,20 @@
   height: 30px;
   bottom: 0;
   position: fixed;
-  text-align: center;
+  div {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+  }
+  span a {
+    text-decoration: none;
+    color: white;
+    &:hover {
+      color: black;
+    }
+  }
 }
 
 @media (max-width: 550px) {

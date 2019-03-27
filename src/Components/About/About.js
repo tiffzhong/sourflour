@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "./About.scss";
 import NavBar from "../NavBar/NavBar";
 import MainImage from "../MainImage/MainImage";
+import Footer from "../Footer/Footer";
+
 class About extends Component {
   render() {
     return (
@@ -52,16 +54,17 @@ class About extends Component {
               free to email danny@sourflour.org, or call (415) 509 – 1210.
             </p>
           </div>
-          <iframe
-            src="https://player.vimeo.com/video/56030891"
-            width="640"
-            height="360"
-            frameborder="0"
-            webkitallowfullscreen
-            mozallowfullscreen
-            allowfullscreen
-          />
+          <div className="video">
+            <iframe
+              src="https://player.vimeo.com/video/56030891"
+              frameborder="0"
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowfullscreen
+            />
+          </div>
         </div>
+        <Footer />
       </div>
     );
   }

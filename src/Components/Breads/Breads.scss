@@ -1,0 +1,54 @@
+.bread-header {
+  font-family: "Didact Gothic", sans-serif;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 20px;
+    width: 800px;
+    padding: 20px;
+  }
+}
+
+.bread-container {
+  font-family: "Didact Gothic", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  margin-bottom: 20px;
+  div {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    span {
+      color: brown;
+      font-size: 20px;
+    }
+  }
+  img {
+    width: 380px;
+    height: 380px;
+    object-fit: cover;
+    animation: appear 1.5s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes appear {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
