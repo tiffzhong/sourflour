@@ -84,15 +84,15 @@
   }
   .workshops-list {
     div {
-      display: flex;
-      align-self: center;
-      margin: 0px;
       border-bottom: 1px solid rgb(199, 158, 104);
       img {
         width: 360px;
         height: 360px;
       }
       span {
+        h6 {
+          font-size: 28px;
+        }
         p {
           font-size: 19px;
         }

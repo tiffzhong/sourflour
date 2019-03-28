@@ -10,10 +10,14 @@
     font-size: 40px;
   }
   div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     div {
       text-align: center;
       padding: 5px;
-      width: 100%;
+      width: 85%;
       background-color: rgb(199, 158, 104);
     }
     h2 {
@@ -23,7 +27,8 @@
   }
   p {
     font-size: 20px;
-    width: 800px;
+    width: 84%;
+    line-height: 1.1em;
   }
   div {
     padding: 20px;
@@ -39,11 +44,20 @@
 
 @media (max-width: 930px) {
   .about-container {
-    h2 {
-      width: 95%;
+    div {
+      div {
+        text-align: center;
+        padding: 5px;
+        width: 90%;
+        h2 {
+          font-size: 26px;
+          width: 95%;
+        }
+      }
     }
     p {
-      width: 95%;
+      font-size: 19px;
+      width: 85%;
     }
     .video {
       iframe {
