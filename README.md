@@ -1,5 +1,3 @@
-## Available Scripts
-
 Hosted on Netlify <a href="https://sourflour.netlify.com/" alt="https://sourflour.netlify.com/">Here</a><br>
 Revamped a Bread Company's Website<br>
 Used:<br>
