@@ -20,7 +20,7 @@
   .navbar-landing {
     font-family: "Didact Gothic", sans-serif;
     background-color: white;
-    border-bottom: 2px solid brown;
+    border-bottom: 2px solid rgb(199, 158, 104);
     width: 100%;
     position: fixed;
     font-size: 20px;
@@ -45,7 +45,7 @@
       text-decoration: none;
 
       &:hover {
-        color: brown;
+        color: rgb(199, 158, 104);
       }
     }
   }
@@ -63,7 +63,7 @@
         position: absolute;
         z-index: 2;
         background: transparent;
-        color: brown;
+        color: rgb(199, 158, 104);
         &:hover {
           color: black;
         }
@@ -192,7 +192,7 @@
     display: flex;
     flex-direction: column;
     width: 85%;
-    border-top: 2px solid brown;
+    border-top: 2px solid rgb(199, 158, 104);
     text-align: center;
     margin: 20px 0;
     padding: 10px;
@@ -201,10 +201,10 @@
       font-size: 45px;
     }
     p {
+      width: 90%;
       align-self: center;
-      width: 500px;
       font-size: 20px;
-      line-height: 1.5em;
+      line-height: 1.8em;
       padding: 15px 0;
       margin-bottom: 10px;
     }
@@ -213,7 +213,7 @@
 .foot {
   font-family: "Didact Gothic", sans-serif;
   width: 100%;
-  background-color: brown;
+  background-color: rgb(199, 158, 104);
   height: 30px;
   bottom: 0;
   position: fixed;
@@ -247,16 +247,54 @@
   }
   .welcome {
     div {
-      border-top: 1px solid brown;
+      border-top: 1px solid rgb(199, 158, 104);
       padding: 0px;
       margin-bottom: 25px;
       h1 {
-        font-size: 35px;
+        font-size: 30px;
       }
       p {
         line-height: 1.2em;
         width: 100%;
+        font-size: 18px;
         padding: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .slide1,
+  .slide2,
+  .slide3 {
+    position: absolute;
+    width: 100%;
+    height: 280px;
+  }
+
+  .landing {
+    .intro {
+      h1 {
+        font-size: 30px;
+      }
+    }
+  }
+  .welcome {
+    top: 280px;
+    div {
+      border-top: 1px solid rgb(199, 158, 104);
+      padding: 0px;
+      margin-top: 10px;
+      margin-bottom: 0px;
+      h1 {
+        padding-top: 5px;
+        font-size: 30px;
+      }
+      p {
+        line-height: 1.2em;
+        width: 100%;
+        font-size: 16px;
+        padding: 5px;
       }
     }
   }

@@ -33,16 +33,21 @@
     flex-direction: column;
 
     span {
-      color: brown;
+      color: rgb(199, 158, 104);
       font-size: 20px;
     }
   }
   img {
+    filter: brightness(100%);
     width: 380px;
     height: 380px;
     object-fit: cover;
     animation: appear 1.5s;
     animation-fill-mode: forwards;
+    &:hover {
+      filter: brightness(120%);
+      transition: all 1s ease;
+    }
   }
   @keyframes appear {
     0% {
