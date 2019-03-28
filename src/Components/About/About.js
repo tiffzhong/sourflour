@@ -3,7 +3,7 @@ import "./About.scss";
 import NavBar from "../NavBar/NavBar";
 import MainImage from "../MainImage/MainImage";
 import Footer from "../Footer/Footer";
-
+import Fade from "react-reveal/Fade";
 class About extends Component {
   render() {
     return (
@@ -13,7 +13,11 @@ class About extends Component {
         <div className="about-container">
           <h1>About Us</h1>
           <div className="history-container">
-            <h2>History</h2>
+            <div className="fader">
+              <Fade right>
+                <h2>History</h2>
+              </Fade>
+            </div>
             <p>
               Sour Flour was founded in 2008 by Danny Gabriner when, through
               home experimentation with sour dough baking, he decided to start a
@@ -28,7 +32,11 @@ class About extends Component {
             </p>
           </div>
           <div className="bread-ed-container">
-            <h2>Bread Education</h2>
+            <div className="fader">
+              <Fade left>
+                <h2>Bread Education</h2>
+              </Fade>
+            </div>
             <p>
               Bread Education is a service provided by Sour Flour to help people
               master sour dough baking, to train future Sour Flour employees and
@@ -37,7 +45,12 @@ class About extends Component {
             </p>
           </div>
           <div className="bagel-mon-container">
-            <h2>Bagel Monday</h2>
+            <div className="fader">
+              <Fade right>
+                <h2>Bagel Monday</h2>
+              </Fade>
+            </div>
+
             <p>
               Bagel Monday provides bagels free of charge, and we encourage home
               bakers to participate in Bagel Monday by baking bagels and getting
@@ -46,7 +59,12 @@ class About extends Component {
             </p>
           </div>
           <div className="investing-container">
-            <h2>Investing in Sour Flour</h2>
+            <div className="fader">
+              <Fade left>
+                <h2>Investing in Sour Flour</h2>
+              </Fade>
+            </div>
+
             <p>
               Sour Flour is a Customer Owned Company. If you are interested in
               having ownership in the company, please read our current

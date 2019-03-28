@@ -9,11 +9,17 @@
   h1 {
     font-size: 40px;
   }
-  h2 {
-    font-size: 30px;
-    width: 900px;
-    background-color: brown;
-    color: white;
+  div {
+    div {
+      text-align: center;
+      padding: 5px;
+      width: 100%;
+      background-color: brown;
+    }
+    h2 {
+      font-size: 30px;
+      color: white;
+    }
   }
   p {
     font-size: 20px;

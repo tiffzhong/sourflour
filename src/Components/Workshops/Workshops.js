@@ -7,6 +7,7 @@ import starter from "../../Images/workshop-1.jpg";
 import advance from "../../Images/workshop-2.jpg";
 import bagel from "../../Images/workshop-3.jpg";
 import pizza from "../../Images/workshop-4.jpg";
+import Fade from "react-reveal/Fade";
 class Workshops extends Component {
   render() {
     return (
@@ -53,7 +54,9 @@ class Workshops extends Component {
             <div className="workshop-1">
               <img src={starter} alt="starter" />
               <span>
-                <h6>Starter Workshop</h6>
+                <Fade right>
+                  <h6>Starter Workshop</h6>
+                </Fade>
                 <p>
                   In this workshop, you can look forward to a fun, hands-on
                   session going over everything you ever wanted to know about
@@ -73,7 +76,9 @@ class Workshops extends Component {
 
             <div className="workshop-2">
               <span>
-                <h6>Advanced Bread Workshop</h6>
+                <Fade right>
+                  <h6>Advanced Bread Workshop</h6>
+                </Fade>
                 <p>
                   This is the second in our bread series, after the Starter
                   Workshop. Once you learn everything about taking care of your
@@ -97,7 +102,9 @@ class Workshops extends Component {
             <div className="workshop-3">
               <img src={bagel} alt="bagel" />
               <span>
-                <h6>Bagel Workshop</h6>
+                <Fade right>
+                  <h6>Bagel Workshop</h6>
+                </Fade>
                 <p>
                   The best bagels ever! Why? Because you make them yourself and
                   nothing beats the flavor and aroma of hot-from-the-oven
@@ -113,7 +120,9 @@ class Workshops extends Component {
             </div>
             <div className="workshop-4">
               <span>
-                <h6>Pizza Workshop</h6>
+                <Fade right>
+                  <h6>Pizza Workshop</h6>
+                </Fade>
                 <p>
                   We expand our dough skills in this workshop by working on one
                   of our favorite foods: pizza. Whether thick crust or thin,
