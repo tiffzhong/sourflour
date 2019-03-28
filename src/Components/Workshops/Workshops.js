@@ -54,7 +54,7 @@ class Workshops extends Component {
             <div className="workshop-1">
               <img src={starter} alt="starter" />
               <span>
-                <Fade right>
+                <Fade>
                   <h6>Starter Workshop</h6>
                 </Fade>
                 <p>
@@ -76,7 +76,7 @@ class Workshops extends Component {
 
             <div className="workshop-2">
               <span>
-                <Fade right>
+                <Fade>
                   <h6>Advanced Bread Workshop</h6>
                 </Fade>
                 <p>
@@ -102,7 +102,7 @@ class Workshops extends Component {
             <div className="workshop-3">
               <img src={bagel} alt="bagel" />
               <span>
-                <Fade right>
+                <Fade>
                   <h6>Bagel Workshop</h6>
                 </Fade>
                 <p>
@@ -120,7 +120,7 @@ class Workshops extends Component {
             </div>
             <div className="workshop-4">
               <span>
-                <Fade right>
+                <Fade>
                   <h6>Pizza Workshop</h6>
                 </Fade>
                 <p>

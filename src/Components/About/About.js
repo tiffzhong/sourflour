@@ -12,9 +12,18 @@ class About extends Component {
         <MainImage />
         <div className="about-container">
           <h1>About Us</h1>
+          <div className="video">
+            <iframe
+              src="https://player.vimeo.com/video/56030891"
+              frameborder="0"
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowfullscreen
+            />
+          </div>
           <div className="history-container">
             <div className="fader">
-              <Fade right>
+              <Fade>
                 <h2>History</h2>
               </Fade>
             </div>
@@ -33,7 +42,7 @@ class About extends Component {
           </div>
           <div className="bread-ed-container">
             <div className="fader">
-              <Fade left>
+              <Fade>
                 <h2>Bread Education</h2>
               </Fade>
             </div>
@@ -46,7 +55,7 @@ class About extends Component {
           </div>
           <div className="bagel-mon-container">
             <div className="fader">
-              <Fade right>
+              <Fade>
                 <h2>Bagel Monday</h2>
               </Fade>
             </div>
@@ -60,7 +69,7 @@ class About extends Component {
           </div>
           <div className="investing-container">
             <div className="fader">
-              <Fade left>
+              <Fade>
                 <h2>Investing in Sour Flour</h2>
               </Fade>
             </div>
@@ -71,15 +80,6 @@ class About extends Component {
               SourFlourBusinessPlan. If you have questions or comments, feel
               free to email danny@sourflour.org, or call (415) 509 – 1210.
             </p>
-          </div>
-          <div className="video">
-            <iframe
-              src="https://player.vimeo.com/video/56030891"
-              frameborder="0"
-              webkitallowfullscreen
-              mozallowfullscreen
-              allowfullscreen
-            />
           </div>
         </div>
         <Footer />
